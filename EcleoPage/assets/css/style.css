@@ -26,7 +26,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.about, .contact, .skills, .portfolio{
+.about, .contact, .skills, .portfolio, .experience{
   background: rgba(5, 13, 24, 0.3);
 }
 
@@ -413,6 +413,15 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #187427;
+}
+
+
+.card-img-top {
+  transition: 2s ease;
+}
+
+.card:hover .card-img-top {
+  transform: translate(3%, 3%) scale(1.2);
 }
 
 /*--------------------------------------------------------------
