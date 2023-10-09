@@ -63,6 +63,26 @@ h6 {
   opacity: 1;
 }
 
+
+
+.card-overlay {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.877);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ opacity: 0;
+ transition: opacity 0.3s;
+}
+
+.card:hover .card-overlay {
+ opacity: 10;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -76,7 +96,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: rgba(5, 13, 24, 0.3);
+  background: rgba(7, 15, 27, 0.836);
   overflow-y: auto;
 }
 
